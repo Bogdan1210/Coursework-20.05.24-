@@ -1,0 +1,13 @@
+bot:
+  BOT_TOKEN: "6516326849:AAGy-1DT4gFawNjfyWzAZ8lh6gTWSsojmXA"
+  BOT_USERNAME: "test_FTE_bot"
+spring:
+  main:
+    allow-circular-references: true
+  # Database configuration
+  datasource:
+    #    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test_FTE
+    username: postgres
+    password: root
+
